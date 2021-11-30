@@ -1,4 +1,4 @@
-## Database Management System 
+## Database Management System (DMS)
 
 Done by Diogo Valdivieso Damasio Da Costa and Alexis Favre
 
@@ -8,12 +8,28 @@ The user can interact with the Database Management system in two ways:
 
 In this project we refer to img_store as the file which stores all the pictures and metadata.
 
+### Command Line Interface
+
+The command line interface to DMS is through the executable imgStoreMgr.
+
 You can find the command interface below:
 
 ![alt text](https://github.com/DiogoVDDC/Database_System/blob/main/Screenshot%20from%202021-11-30%2014-42-07.png)
 
+Here is an example on how to create and img_store:
 
-To lauch the webserver a img_store
+![alt text](https://github.com/DiogoVDDC/Database_System/blob/main/create_img_store.png)
+
+Here is an example on how to add an image and list the content of the img_store:
+
+![alt text](https://github.com/DiogoVDDC/Database_System/blob/main/add_list_img_store.png)
+
+
+### Web Interface
+
+To lauch the webserver an img_store store is needed as argument.
+
+Here is a video example of how one might use both the web interface and command interface to use operate the DMS.
 
 https://user-images.githubusercontent.com/56833126/144067057-2ffb6c35-28dd-4314-a18e-03a8bd1fedef.mp4
 
