@@ -45,5 +45,5 @@ struct imgst_file represents the img_store file.
 Images are stored in different sizes, if a size that is not present in the database is requested, the image is created and added to the database. 
 
 The garbage collector is responsible for removing the images in the file, since the delete command only changes the valid bit to 0. 
-The garbage collection is not done in place an requires a temporary file. 
+The garbage collection is not done in place an requires a temporary file. The image with valid different to 1 aren't copied to the temp file. The temp file is then copied to the img_store file and deleted
 
