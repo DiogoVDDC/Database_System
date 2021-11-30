@@ -1,0 +1,9 @@
+*****************************************
+**********IMGSTORE HEADER START**********
+TYPE:            EPFL ImgStore binary
+VERSION: 0
+IMAGE COUNT: 0		MAX IMAGES: 10
+THUMBNAIL: 64 x 64	SMALL: 256 x 256
+***********IMGSTORE HEADER END***********
+*****************************************
+<< empty imgStore >>
